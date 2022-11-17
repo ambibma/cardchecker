@@ -129,14 +129,6 @@ function luhn(cardNumberString){ // "12345"
   }
 }
 
-// alternative solution
-    // let luhnArray = luhnScore.toString().split('')
-    // if (luhnArray[luhnArray.length-1] === '0') {
-    //   return true
-    // } else {
-    //   return false;
-    // }
-
 
 // step 2
 
