@@ -95,10 +95,10 @@ return: type of card, visa(4), Mastercard (5), discover(6), AmEx(34 or 37)
 
 step 3
 
-describe lengthOf(string)
-test: it will return the length of the credit card string
-code: lengthOf("12345")
-expected output: 5
+// describe lengthOf(string)
+// test: returns if the length of the credit card number matches the type
+// code: lengthOf("12345")
+// expected output: False
 
 step 4
 
